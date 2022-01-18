@@ -30,6 +30,8 @@ public class Weapon {
 							.replace("\n", "")
 							.split("<td style=\"\">");
 					//for(String s : specs) System.out.println(s);
+					
+					// TODO: fill Weapon objects each time, add them to array, and tie in Primary/Secondary/Melee classes to use this
 				}
 			}
 		} catch (IOException e) {
